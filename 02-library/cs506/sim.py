@@ -6,7 +6,7 @@ def euclidean_dist(x, y):
     if len(x) == 0 or len(y) == 0:
         raise ValueError("lengths must not be zero")
     if len(x) != len(y):
-        raise ValueError("lengths must be equal!")
+        raise ValueError("lengths must be equal")
 
     res = 0
     for i in range(len(x)):
@@ -21,7 +21,7 @@ def manhattan_dist(x, y):
     if len(x) == 0 or len(y) == 0:
         raise ValueError("lengths must not be zero")
     if len(x) != len(y):
-        raise ValueError("lengths must be equal!")
+        raise ValueError("lengths must be equal")
 
     res = 0
     for i in range(len(x)):
@@ -48,7 +48,7 @@ def cosine_sim(x, y):
     if len(x) == 0 or len(y) == 0:
         raise ValueError("lengths must not be zero")
     if len(x) != len(y):
-        raise ValueError("lengths must be equal!")
+        raise ValueError("lengths must be equal")
     dot = 0
     x_magnitude = 0
     y_magnitude = 0
